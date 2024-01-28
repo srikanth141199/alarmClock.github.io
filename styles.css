@@ -1,0 +1,71 @@
+/* Sand Tan: #e1b382
+
+Sand Tan Shadow: #c89666
+
+Night Blue: #2d545e
+
+Night Blue Shadow: #12343b */
+
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #99dce930; */
+  background-color: #D9D7DD;
+}
+
+input {
+  border-radius: 8px;
+  border-color: #0f7f9591;
+  background-color: #bbe9f2c9;
+}
+
+button {
+  color: #2d545e;
+  background-color: #9dd2e0ad;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 25px;
+  border-color: #34caea;
+  border-width: 3px;
+}
+
+#content-wrapper {
+  background-color: antiquewhite;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  color: #2d545e;
+  background-color: #c89666;
+  margin: 50px 300px;
+  border-radius: 25px;
+}
+
+#clock {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+#alarm-form {
+  margin-bottom: 20px;
+}
+
+#alarm-list {
+  list-style: none;
+  padding: 0;
+}
+
+.alarm-item {
+  margin-bottom: 10px;
+}
